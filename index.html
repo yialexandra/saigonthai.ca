@@ -31,6 +31,15 @@
 			<link rel="stylesheet" href="css/main.css">
 		</head>
 		<style>
+			.scroll-container {
+			  background-color: #333;
+			  overflow: auto;
+  			  white-space: nowrap;
+  			  padding: 10px;
+			}
+			.scroll-container img {
+  			  padding: 10px;
+			}
 			.lightbox {
 			  position: fixed;
 			  z-index: 100;
@@ -196,7 +205,14 @@
 								<!--
 								<a href="menu.pdf" class="primary-btn text-uppercase">Check Our Full Menu</a>
 								-->
-								<embed src="menu.pdf" width= "550" height= "413" type="application/pdf">
+							<div class="scroll-container">
+ 								<img src="menu-images-0.jpg" width="90%" height="90%">
+  								<img src="menu-images-1.jpg" width="90%" height="90%">
+  								<img src="menu-images-2.jpg" width="90%" height="90%">
+  								<img src="menu-images-3.jpg" width="90%" height="90%">
+  								<img src="menu-images-4.jpg" width="90%" height="90%">
+  								<img src="menu-images-5.jpg" width="90%" height="90%">
+							</div>
 					</div>
 		<!--
                     <ul class="filter-wrap filters col-lg-12 no-padding">
